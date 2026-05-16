@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4008.304 308.73333333333335" width="4008.304" height="308.73333333333335" style="--bg: #282a36; --fg: #f8f8f2; --line: #6272a4; --accent: #bd93f9; --muted: #6272a4; background: var(--bg); width: 4008.3px; height: 308.733px;">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round"/>
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round"/>
+  </marker>
+</defs>
+<g class="subgraph" data-id="WRITE" data-label="Write Layer">
+  <rect x="40" y="58.44583333333333" width="437.52299999999997" height="144.7" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1"/>
+  <rect x="40" y="58.44583333333333" width="437.52299999999997" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1"/>
+  <text x="52" y="72.44583333333333" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Write Layer</text>
+</g>
+<g class="subgraph" data-id="PHASE1" data-label="Phase 1 — Wide Table Construction">
+  <rect x="904.8129999999999" y="65.44583333333333" width="899.9279999999999" height="179.875" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1"/>
+  <rect x="904.8129999999999" y="65.44583333333333" width="899.9279999999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1"/>
+  <text x="916.8129999999999" y="79.44583333333333" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Phase 1 — Wide Table Construction</text>
+</g>
+<g class="subgraph" data-id="STORE" data-label="Storage Layer">
+  <rect x="3746.8949999999995" y="45.108333333333334" width="221.40899999999996" height="144.7" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1"/>
+  <rect x="3746.8949999999995" y="45.108333333333334" width="221.40899999999996" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1"/>
+  <text x="3758.8949999999995" y="59.108333333333334" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Storage Layer</text>
+</g>
+<g class="subgraph" data-id="PHASE2" data-label="Phase 2 — ES Sync">
+  <rect x="1991.889" y="89.10833333333333" width="551.121" height="130.7" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1"/>
+  <rect x="1991.889" y="89.10833333333333" width="551.121" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1"/>
+  <text x="2003.889" y="103.10833333333333" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Phase 2 — ES Sync</text>
+</g>
+<g class="subgraph" data-id="QUERY" data-label="Query Layer">
+  <rect x="2768.768" y="149.38333333333333" width="788.843" height="119.35000000000001" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1"/>
+  <rect x="2768.768" y="149.38333333333333" width="788.843" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1"/>
+  <text x="2780.768" y="163.38333333333333" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Query Layer</text>
+</g>
+<polyline class="edge" data-from="DB" data-to="CANAL" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="binlog" points="461.52299999999997,144.79583333333332 617.685,144.79583333333332" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="CANAL" data-to="MQ1" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="850.8129999999999,144.79583333333332 920.8129999999999,144.79583333333335" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="C1" data-to="HBASE" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Put(field, ts=binlogTs)&#10;each field in independent Cell, no overwrite" points="1452.5309999999997,127.12083333333332 1464.5309999999997,127.12083333333332 1464.5309999999997,118.28333333333332 1973.889,118.28333333333332 1973.889,57.999999999999986 3728.8949999999995,57.999999999999986 3728.8949999999995,110.28333333333332 3762.8949999999995,110.28333333333332" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="C1" data-to="MQ2" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="orderId trigger" points="1452.5309999999997,144.79583333333332 1464.5309999999997,144.79583333333332 1464.5309999999997,133.6208333333333 1846.7409999999998,133.6208333333333 1846.7409999999998,168.45833333333331 2007.889,168.45833333333331" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="C2" data-to="HBASE" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Get(maxVersions=1)" points="2527.0099999999998,156.675 2750.768,156.675 2750.768,111.08333333333334 3728.8949999999995,111.08333333333334 3728.8949999999995,131.45833333333334 3762.8949999999995,131.45833333333334" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="C2" data-to="ES" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="version=max(cellTs)&#10;version_type=external" points="2527.0099999999998,180.24166666666667 2585.01,180.24166666666667 2585.01,225.83333333333337 2784.768,225.83333333333337" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="QS" data-to="HBASE" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="③ multiGet batch fetch" points="3250.9230000000002,239.28333333333333 3262.9230000000002,239.28333333333333 3262.9230000000002,240.28333333333333 3728.895,240.28333333333333 3728.895,152.63333333333333 3762.8949999999995,152.63333333333333" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="OS" data-to="DB" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="write" points="183.165,144.79583333333332 311.387,144.79583333333332" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="MQ1" data-to="C1" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="at-least-once" points="985.7339999999999,144.79583333333332 1151.9719999999998,144.79583333333332" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="C1" data-to="REDIS" data-style="dotted" data-arrow-start="false" data-arrow-end="true" data-label="dedup key" points="1452.5309999999997,162.47083333333333 1464.5309999999997,162.47083333333333 1464.5309999999997,186.97083333333333 1607.4829999999997,186.97083333333333" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="MQ2" data-to="C2" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="at-least-once" points="2077.256,168.45833333333331 2243.4939999999997,168.45833333333331" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="CLIENT" data-to="QS" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="3467.057,217.98333333333335 3431.057,217.98333333333335 3431.057,225.39166666666665 3262.9230000000002,225.39166666666665 3262.9230000000002,225.83333333333334 3250.9230000000002,225.83333333333334" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="QS" data-to="ES" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="① full-text / condition query" points="3070.406,234.8 3034.406,234.8 3034.406,239.63333333333333 2856.768,239.63333333333333 2856.768,231.98333333333335 2844.768,231.98333333333335" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="ES" data-to="QS" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="② orderId List" points="2844.768,219.68333333333334 2856.768,219.68333333333334 2856.768,206.33333333333331 3034.406,206.33333333333331 3034.406,216.86666666666667 3070.406,216.86666666666667" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<polyline class="edge" data-from="QS" data-to="CLIENT" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="④ aggregated response" points="3250.9230000000002,212.38333333333333 3262.9230000000002,212.38333333333333 3262.9230000000002,205.09166666666667 3431.057,205.09166666666667 3431.057,205.68333333333334 3467.057,205.68333333333334" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)"/>
+<g class="edge-label" data-from="DB" data-to="CANAL" data-label="binlog">
+  <rect x="527.5229999999999" y="128.7958333333333" width="46.162" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="550.6039999999999" y="143.9458333333333" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">binlog</text>
+</g>
+<g class="edge-label" data-from="C1" data-to="HBASE" data-label="Put(field, ts=binlogTs)&#10;each field in independent Cell, no overwrite">
+  <rect x="3482.0369999999994" y="34.999999999999986" width="214.85799999999998" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="3589.4659999999994" y="57.29999999999998" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="3589.4659999999994" dy="-3.3000000000000007">Put(field, ts=binlogTs)</tspan><tspan x="3589.4659999999994" dy="14.3">each field in independent Cell, no overwrite</tspan></text>
+</g>
+<g class="edge-label" data-from="C1" data-to="MQ2" data-label="orderId trigger">
+  <rect x="1854.7409999999998" y="152.45833333333331" width="87.14800000000002" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="1898.3149999999998" y="167.60833333333332" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">orderId trigger</text>
+</g>
+<g class="edge-label" data-from="C2" data-to="HBASE" data-label="Get(maxVersions=1)">
+  <rect x="3586.581" y="95.08333333333334" width="110.31400000000002" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="3641.7380000000003" y="110.23333333333335" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Get(maxVersions=1)</text>
+</g>
+<g class="edge-label" data-from="C2" data-to="ES" data-label="version=max(cellTs)&#10;version_type=external">
+  <rect x="2593.01" y="202.83333333333337" width="125.75800000000004" height="44.6" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="2655.889" y="225.13333333333338" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)"><tspan x="2655.889" dy="-3.3000000000000007">version=max(cellTs)</tspan><tspan x="2655.889" dy="14.3">version_type=external</tspan></text>
+</g>
+<g class="edge-label" data-from="QS" data-to="HBASE" data-label="③ multiGet batch fetch">
+  <rect x="3607.611" y="224.28333333333336" width="113.28400000000002" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="3664.2529999999997" y="239.43333333333337" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">③ multiGet batch fetch</text>
+</g>
+<g class="edge-label" data-from="OS" data-to="DB" data-label="write">
+  <rect x="227.165" y="128.79583333333332" width="40.221999999999994" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="247.27599999999998" y="143.94583333333333" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">write</text>
+</g>
+<g class="edge-label" data-from="MQ1" data-to="C1" data-label="at-least-once">
+  <rect x="1029.734" y="128.79583333333332" width="78.238" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="1068.8529999999998" y="143.94583333333333" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">at-least-once</text>
+</g>
+<g class="edge-label" data-from="C1" data-to="REDIS" data-label="dedup key">
+  <rect x="1496.5309999999995" y="170.97083333333333" width="66.952" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="1530.0069999999996" y="186.12083333333334" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">dedup key</text>
+</g>
+<g class="edge-label" data-from="MQ2" data-to="C2" data-label="at-least-once">
+  <rect x="2121.256" y="152.45833333333334" width="78.238" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="2160.375" y="167.60833333333335" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">at-least-once</text>
+</g>
+<g class="edge-label" data-from="QS" data-to="ES" data-label="① full-text / condition query">
+  <rect x="2888.768" y="223.63333333333333" width="137.63800000000003" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="2957.587" y="238.78333333333333" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">① full-text / condition query</text>
+</g>
+<g class="edge-label" data-from="ES" data-to="QS" data-label="② orderId List">
+  <rect x="2917.28" y="190.33333333333331" width="80.614" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="2957.587" y="205.48333333333332" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">② orderId List</text>
+</g>
+<g class="edge-label" data-from="QS" data-to="CLIENT" data-label="④ aggregated response">
+  <rect x="3294.923" y="189.09166666666667" width="128.13400000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1"/>
+  <text x="3358.99" y="204.24166666666667" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">④ aggregated response</text>
+</g>
+<g class="node" data-id="CANAL" data-label="Canal Cluster&#10;ZK Leader Election · Resumable" data-shape="rectangle">
+  <rect x="617.685" y="117.89583333333331" width="233.128" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <text x="734.2489999999999" y="144.79583333333332" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="734.2489999999999" dy="-3.9000000000000012">Canal Cluster</tspan><tspan x="734.2489999999999" dy="16.900000000000002">ZK Leader Election · Resumable</tspan></text>
+</g>
+<g class="node" data-id="OS" data-label="Order Service" data-shape="rectangle">
+  <rect x="56" y="126.34583333333333" width="127.16499999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <text x="119.5825" y="144.79583333333335" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Order Service</text>
+</g>
+<g class="node" data-id="DB" data-label="MySQL&#10;32 DBs × 16 Tables&#10;512 Shards" data-shape="cylinder">
+  <rect x="311.387" y="109.44583333333333" width="150.13599999999997" height="70.7" fill="var(--_node-fill)" stroke="none"/>
+  <line x1="311.387" y1="109.44583333333333" x2="311.387" y2="180.14583333333331" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <line x1="461.52299999999997" y1="109.44583333333333" x2="461.52299999999997" y2="180.14583333333331" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <ellipse cx="386.455" cy="180.14583333333331" rx="75.06799999999998" ry="7" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <ellipse cx="386.455" cy="109.44583333333333" rx="75.06799999999998" ry="7" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <text x="386.455" y="144.79583333333332" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="386.455" dy="-12.350000000000001">MySQL</tspan><tspan x="386.455" dy="16.900000000000002">32 DBs × 16 Tables</tspan><tspan x="386.455" dy="16.900000000000002">512 Shards</tspan></text>
+</g>
+<g class="node" data-id="MQ1" data-label="MQ1" data-shape="rectangle">
+  <rect x="920.8129999999999" y="126.34583333333333" width="64.92099999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <text x="953.2734999999999" y="144.79583333333335" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">MQ1</text>
+</g>
+<g class="node" data-id="C1" data-label="Consumer 1&#10;writes only current table's binlog fields to Cell&#10;timestamp = binlogTs" data-shape="rectangle">
+  <rect x="1151.9719999999998" y="109.44583333333333" width="300.5589999999999" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <text x="1302.2514999999996" y="144.79583333333332" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1302.2514999999996" dy="-12.350000000000001">Consumer 1</tspan><tspan x="1302.2514999999996" dy="16.900000000000002">writes only current table's binlog fields to Cell</tspan><tspan x="1302.2514999999996" dy="16.900000000000002">timestamp = binlogTs</tspan></text>
+</g>
+<g class="node" data-id="REDIS" data-label="Redis&#10;Dedup · binlogFile+Pos&#10;TTL 24h" data-shape="cylinder">
+  <rect x="1607.4829999999997" y="151.62083333333334" width="181.25799999999998" height="70.7" fill="var(--_node-fill)" stroke="none"/>
+  <line x1="1607.4829999999997" y1="151.62083333333334" x2="1607.4829999999997" y2="222.32083333333333" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <line x1="1788.7409999999998" y1="151.62083333333334" x2="1788.7409999999998" y2="222.32083333333333" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <ellipse cx="1698.1119999999996" cy="222.32083333333333" rx="90.62899999999999" ry="7" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <ellipse cx="1698.1119999999996" cy="151.62083333333334" rx="90.62899999999999" ry="7" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <text x="1698.1119999999996" y="186.97083333333333" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1698.1119999999996" dy="-12.350000000000001">Redis</tspan><tspan x="1698.1119999999996" dy="16.900000000000002">Dedup · binlogFile+Pos</tspan><tspan x="1698.1119999999996" dy="16.900000000000002">TTL 24h</tspan></text>
+</g>
+<g class="node" data-id="HBASE" data-label="HBase Wide Table&#10;Cell-level Multi-version&#10;source of truth · Full Data" data-shape="cylinder">
+  <rect x="3762.8949999999995" y="96.10833333333332" width="189.40899999999996" height="70.7" fill="var(--_node-fill)" stroke="none"/>
+  <line x1="3762.8949999999995" y1="96.10833333333332" x2="3762.8949999999995" y2="166.80833333333334" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <line x1="3952.3039999999996" y1="96.10833333333332" x2="3952.3039999999996" y2="166.80833333333334" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <ellipse cx="3857.5994999999994" cy="166.80833333333334" rx="94.70449999999998" ry="7" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <ellipse cx="3857.5994999999994" cy="96.10833333333332" rx="94.70449999999998" ry="7" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <text x="3857.5994999999994" y="131.45833333333331" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="3857.5994999999994" dy="-12.350000000000001">HBase Wide Table</tspan><tspan x="3857.5994999999994" dy="16.900000000000002">Cell-level Multi-version</tspan><tspan x="3857.5994999999994" dy="16.900000000000002">source of truth · Full Data</tspan></text>
+</g>
+<g class="node" data-id="MQ2" data-label="MQ2" data-shape="rectangle">
+  <rect x="2007.889" y="150.00833333333333" width="69.36699999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <text x="2042.5725" y="168.45833333333331" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">MQ2</text>
+</g>
+<g class="node" data-id="C2" data-label="Consumer 2&#10;Get(maxVersions=1)&#10;latest version per field → merged snapshot" data-shape="rectangle">
+  <rect x="2243.4939999999997" y="133.10833333333335" width="283.51599999999996" height="70.7" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <text x="2385.2519999999995" y="168.45833333333334" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="2385.2519999999995" dy="-12.350000000000001">Consumer 2</tspan><tspan x="2385.2519999999995" dy="16.900000000000002">Get(maxVersions=1)</tspan><tspan x="2385.2519999999995" dy="16.900000000000002">latest version per field → merged snapshot</tspan></text>
+</g>
+<g class="node" data-id="ES" data-label="ES" data-shape="rectangle">
+  <rect x="2784.768" y="207.38333333333333" width="60" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <text x="2814.768" y="225.83333333333331" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">ES</text>
+</g>
+<g class="node" data-id="QS" data-label="Query Service&#10;Stateless Multi-instance" data-shape="rectangle">
+  <rect x="3070.406" y="198.93333333333334" width="180.517" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <text x="3160.6645" y="225.83333333333334" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="3160.6645" dy="-3.9000000000000012">Query Service</tspan><tspan x="3160.6645" dy="16.900000000000002">Stateless Multi-instance</tspan></text>
+</g>
+<g class="node" data-id="CLIENT" data-label="Client" data-shape="rectangle">
+  <rect x="3467.057" y="193.38333333333333" width="74.554" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75"/>
+  <text x="3504.334" y="211.83333333333331" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Client</text>
+</g>
+</svg>
